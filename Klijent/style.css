@@ -1,0 +1,68 @@
+.igrica{
+    border: 2px solid black;
+    /* border-radius: 30px; */
+    flex: 1 1 30px;
+    margin: 5px;
+    text-align: center;
+}
+
+.forma 
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    margin: 5px;
+    border: 4px solid black;
+    /* border-radius: 25px; */
+    padding: 5px;
+    color: red;
+    background-color: white;
+    
+}
+
+select {
+    margin-top: 3px;
+}
+
+.vrsta
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+div 
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.kontejnerIgre {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 500px;
+    font-size: 20px;
+}
+
+.button
+{
+    margin: 5px;
+    outline: none;
+    transition: 0.7s;
+    margin: 5px;
+}
+
+.button:hover
+{
+    background-color: red;
+    color: white;
+}
+h2 
+{
+    
+    color: #fd0505;
+    margin: 5px;
+    text-align: center;
+}
